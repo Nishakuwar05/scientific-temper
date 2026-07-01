@@ -494,18 +494,22 @@ body{
    Mobile Hero Background
 =========================== */
 
-@media (max-width:768px){
+@media(max-width:768px){
 
 .hero{
 
-    min-height:100vh;
-    width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
 
-    background-size:cover;
-    background-position:center center;
-    background-repeat:no-repeat;
+min-height:100vh;
 
-    padding:100px 20px 60px;
+padding:80px 20px;
+
+background-position:65% center;
+
+text-align:center;
 
 }
 
