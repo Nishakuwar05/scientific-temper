@@ -490,6 +490,26 @@ body{
     animation:scroll 1.5s infinite;
 
 }
+/* ===========================
+   Mobile Hero Background
+=========================== */
+
+@media (max-width:768px){
+
+.hero{
+
+    min-height:100vh;
+    width:100%;
+
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+
+    padding:100px 20px 60px;
+
+}
+
+}
 
 /* =========================
    ANIMATIONS
