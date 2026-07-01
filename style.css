@@ -197,6 +197,38 @@ font-weight:bold;
 animation:bounce 2s infinite;
 
 }
+/* ===============================
+   MOBILE RESPONSIVE - HERO
+=================================*/
+
+@media screen and (max-width:768px){
+
+.hero{
+    min-height:100vh;
+    padding:120px 20px 60px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:42px;
+    line-height:1.2;
+}
+
+.hero p{
+    font-size:18px;
+    width:100%;
+    max-width:100%;
+    margin:20px auto;
+}
+
+.hero button,
+.hero .btn{
+    width:220px;
+    font-size:18px;
+    padding:15px;
+}
+
+}
 /* =========================
    GENERAL
 ========================= */
@@ -600,6 +632,38 @@ font-size:1.5rem;
 }
 
 }
+@media(max-width:768px){
+
+.navbar{
+
+flex-wrap:wrap;
+justify-content:center;
+padding:15px;
+
+}
+
+.nav-links{
+
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+
+}
+
+.nav-links a{
+
+font-size:14px;
+
+}
+
+.logo{
+
+font-size:24px;
+
+}
+
+}
 /* ===========================
    SECTION HEADINGS
 =========================== */
@@ -719,8 +783,7 @@ section h3{
 
 .story-card{
 
-    width:750px;
-    max-width:95%;
+   width:min(90%,700px);
 
     background:#FDF8EE;
 
@@ -773,7 +836,33 @@ pointer-events:none;
 transform:translateY(-8px);
 
 }
+@media(max-width:768px){
 
+.story-card{
+
+padding:30px 20px;
+
+}
+
+.story-card h2{
+
+font-size:30px;
+
+}
+
+.story-card p{
+
+font-size:17px;
+
+}
+
+.icon{
+
+font-size:55px;
+
+}
+
+}
 /*=========================================
             YEAR
 =========================================*/
@@ -1181,6 +1270,22 @@ padding-right:20px;
 left:0 !important;
 
 text-align:left;
+
+}
+
+}
+@media(max-width:768px){
+
+.card{
+
+margin-bottom:30px;
+
+}
+
+.card img{
+
+height:220px;
+object-fit:cover;
 
 }
 
